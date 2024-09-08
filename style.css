@@ -1,0 +1,158 @@
+body{
+    font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+margin: 0;
+padding: 0;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-style: 'Lato','poppins','roboto slab';
+}
+nav ul{
+    display:flex;
+ align-items:center;
+    list-style-type:none;
+    height:100px;
+background-color:black;
+color:white;
+}
+nav ul li{
+    padding: 0 20px
+    
+}
+.brand img{
+    width:90px;
+    padding: 30px 20px;
+   
+    border-radius: 50%;
+    }
+    .brand:hover{
+        color:palegreen ;
+        font-size:1.04rem; 
+    }
+.brand{
+    display:flex;
+align-items: center;
+font-weight:italic;
+ font-size:  20px;;
+padding: 20px 30px;
+}
+br{
+color:aqua;
+height: 10px;
+}
+ .Header{
+min-height:100vh;
+width:100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(recycle.bg.png);
+background-position:center;
+background-size:cover;
+position:relative;
+}
+nav ul li:hover {
+    color:palegreen ;
+    font-size:1.04rem;
+}
+.chat-container {
+    max-width: 600px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #044c70;
+    border: 1px solid #f3f6f7;
+    border-radius: 10px;
+    padding: 5px 2px;
+    box-shadow: 0px 0px 10px rgba(12, 1, 1, 0.2);
+    font-weight: 400;
+}
+
+.chat-messages {
+    max-height: 100px;
+    overflow-y: scroll;
+    padding: 20px;
+    border-bottom: 1px solid #f88f8fe1;
+}
+
+.user-message, .bot-message {
+    background-color:#090003;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 5px 0;
+    height: 100px;
+}
+
+.user-message {
+    text-align: right;
+}
+
+.bot-message {
+    text-align: left;
+}
+
+.user-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    color:rgb(13, 180, 180);
+ 
+}
+
+.user-input input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #0b0202;
+    border-radius: 3px;
+}
+
+.user-input button {
+    background-color: #020509;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.user-input button:hover {
+    background-color: #034542;
+}
+p{
+    color:#efeff0;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+body{
+    background-color :white;
+    color:rgb(255, 252, 252);
+    font-family: 'poppins',serif;
+}
+.first{
+    display:flex;
+justify-content:space-around;
+align-items:center;
+margin: 40px 0 ;
+}
+.first > div{
+    width: 80%;
+}
+.leftSection{
+   
+    font-size: 1.5rem;  
+    width:50%;
+    margin: 80px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: #355c7d;
+
+}
